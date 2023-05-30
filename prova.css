@@ -1,0 +1,296 @@
+body{
+    background-color: azure;
+    margin: 0 auto;
+    
+}
+
+
+
+form {
+    width: 98%;
+    height: 200px;
+    font-size: large;
+    margin: 0 auto;
+    
+
+
+}
+
+#tutto {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#altezza {
+    margin-bottom: 20px;
+}
+
+#output {
+
+   width: 98%;
+   height: 200px;
+   margin: 0 auto;
+}
+
+h1 {
+    color: orangered;
+    text-align: center;
+    
+    
+    
+    
+}
+
+.contenitore{
+    
+    width: fit-content;
+    height: 100px;
+    margin: 0 auto;
+}
+
+input {
+
+    border-radius: 50px;
+    
+}
+
+h2 {
+    
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+}
+
+.alberto{
+    
+    width: 95%;
+    height: 200px;
+    
+
+}
+.ar1 {
+    border: 2px solid rebeccapurple;
+    width: 48%;
+    height: 200px;
+    float: left;
+    margin: auto;
+    background-color: rebeccapurple;
+
+}
+
+.ar1 p {
+    font-size: x-large;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+    
+    margin-top: 70px;    
+    
+}
+
+.ar2 {
+    border: 2px solid salmon;
+    width: 49%;
+    height: 200px;
+    float: right;
+    background-image: url(/immagini/Alberto\ copia.jpg);
+    margin: auto;
+}
+
+.seguimi {
+    width: 98%;
+    height: 30px;
+}
+
+.seguimi p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: crimson;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.social {
+    width: 98%;
+    height: 50px;
+    
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb {width: 50px;
+    height: 50px;
+    
+    float: left; 
+
+}
+
+.fb img {
+
+    justify-content: center;
+    width: fit-content;
+    height:fit-content ;
+    margin: auto;
+}
+
+.insta { width: 50px;
+    height: 50px;
+    
+    float: right;
+    
+
+}
+
+.insta img {
+    justify-content: center;
+    width: fit-content;
+    height:fit-content ;
+    margin: auto;
+
+
+}
+
+.tw {width: 50px;
+    height: 50px;
+    
+    float: right;
+    
+}
+
+.tw img {
+    justify-content: center;
+    width: fit-content;
+    height:fit-content ;
+    margin: auto;
+
+
+}
+
+.youtube {width: 50px;
+    height: 50px;
+   
+    float: right;
+    
+
+}
+
+.youtube img {
+    justify-content: center;
+    width: fit-content;
+    height:fit-content ;
+    margin: auto;
+
+}
+
+.telegram {width: 50px;
+    height: 50px;
+    
+    float: right;
+    
+
+
+}
+
+.telegram img {
+    justify-content: center;
+    width: fit-content;
+    height:fit-content ;
+    margin: auto;
+
+
+}
+
+.wapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:48em){
+    
+    body {
+        background-color: sandybrown;
+    }
+
+    #tutto {
+
+        margin-left: 40%;
+        margin-top: 20%;
+    }
+
+    
+    
+    .alberto{
+        
+        
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    
+    
+    }
+
+    .social {
+        width: 59%;
+        height: 50px;
+        
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ar1 {
+        
+        width: 49%;
+        height: 200px;
+        
+        margin: auto;
+        background-color: rebeccapurple;
+    
+    }
+
+    .ar2 {
+        
+        width: 45%;
+        height: 200px;
+        
+        background-image: url(/immagini/Alberto\ copia.jpg);
+        margin: auto;
+    }
+
+    .seguimi {
+        width: 98%;
+        height: 30px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    .seguimi p {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: crimson;
+        margin-top: 20px;
+        font-weight: bold;
+        
+        font-size: 40px;
+        
+    }
+
+
+}
